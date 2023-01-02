@@ -1,0 +1,22 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+main {
+   display: grid;
+   place-items: center;
+   position: relative;
+   min-height: 100vh;
+}
+
+#anchor{
+   position: absolute;
+   height:375px;
+   width: auto;
+}
+#eyes, #eyes img {
+   height:25px;
+   position: absolute;
+}
